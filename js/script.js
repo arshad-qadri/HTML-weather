@@ -7,7 +7,7 @@ const getData = () => {
     : `
       <div class="location"> <i class="fas fa-street-view"></i> <h3> ${getCity.value}</h3> </div>
       <div class="temp"> ${data.temp} °Cel</div>
-      <div class="min-max-temp">   Minimum : ${data.temp_min} °Cel | Maximum : ${data.temp_max} °Cel </div>
+      <div class="min-max-temp">   Min : ${data.temp_min} °Cel | Max : ${data.temp_max} °Cel </div>
   `;
 };
 const getAPIData = async () => {
